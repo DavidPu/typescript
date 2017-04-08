@@ -1,0 +1,15 @@
+//http://www.andrewconnell.com/blog/debugging-node-js-projects-with-typescript-and-vs-code-digging-into-sourcemaps
+{
+  "version": "0.1.0",
+  "command": "gulp",
+  "isShellCommand": true,
+  "args": ["--no-color"],
+  "showOutput": "always",
+  "tasks": [
+    {
+      "taskName": "build",
+      "isBuildCommand": true,
+      "isWatching": false
+    }
+  ]
+}

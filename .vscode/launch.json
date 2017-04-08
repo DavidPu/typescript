@@ -1,0 +1,23 @@
+//http://stackoverflow.com/questions/31169259/how-to-debug-typescript-files-in-visual-studio-code
+{
+    "version": "0.2.0",
+    "configurations": [{
+            "type": "node",
+            "request": "launch",
+            "name": "Launch",
+            "sourceMaps": true,
+            "stopOnEntry": true,
+            "console": "internalConsole",
+            "cwd": "${workspaceRoot}",
+            "program": "${workspaceRoot}/src/hello_world.ts",
+            "outFiles": ["${workspaceRoot}/dist/hello_world.js"]
+        },
+        {
+            "type": "node",
+            "request": "attach",
+            "name": "Attach to Process",
+            "port": 5858,
+            "outFiles": []
+        }
+    ]
+}
