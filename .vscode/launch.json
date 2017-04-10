@@ -9,8 +9,8 @@
             "stopOnEntry": true,
             "console": "internalConsole",
             "cwd": "${workspaceRoot}",
-            "program": "${workspaceRoot}/src/hello_world.ts",
-            "outFiles": ["${workspaceRoot}/dist/hello_world.js"]
+            "program": "${workspaceRoot}/src/index.ts",
+            "outFiles": ["${workspaceRoot}/dist/index.js"]
         },
         {
             "type": "node",
